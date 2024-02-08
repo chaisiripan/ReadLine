@@ -22,7 +22,11 @@ namespace ReadLine
             string num2 = Console.ReadLine();
             Console.WriteLine("You insert number 1 is {0} and number 2 is {1}", num1, num2);
 
-
+            Console.Write("Enter number 3 : ");
+            string num3 = Console.ReadLine();
+            Console.Write("Enter number 4 : ");
+            string num4 = Console.ReadLine();
+            Console.WriteLine("You insert number 3 is {0} and number 4 is {1}", num3, num4);
         }
     }
 }

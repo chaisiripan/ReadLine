@@ -15,6 +15,14 @@ namespace ReadLine
             Console.Write("Enter you age: ");
             string age = Console.ReadLine();
             Console.WriteLine("You name is {0} and you age is {1} year olds", name, age);
+
+            Console.Write("Enter number 1 : ");
+            string num1 = Console.ReadLine();
+            Console.Write("Enter number 2 : ");
+            string num2 = Console.ReadLine();
+            Console.WriteLine("You insert number 1 is {0} and number 2 is {1}", num1, num2);
+
+
         }
     }
 }
